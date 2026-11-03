@@ -2,8 +2,8 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#09090b" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#08090b" />
   <title>INFIRE RP — Пополнение баланса</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,57 +11,20 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="noise"></div>
-  <div class="glow glow-one"></div><div class="glow glow-two"></div>
+  <div class="noise"></div><div class="glow glow-one"></div><div class="glow glow-two"></div>
   <header class="nav wrap">
-    <a class="brand" href="#"><span class="brand-mark">I</span><span>INFIRE</span><b>RP</b></a>
+    <a class="brand" href="#top" aria-label="INFIRE RP"><span class="brand-word"><span class="brand-i">I</span>NFIRE</span><b>RP</b></a>
     <nav><a href="#top">Главная</a><a href="#donate">Пополнить</a><a href="#faq">Помощь</a></nav>
     <a class="support" href="#faq">Поддержка</a>
   </header>
-
   <main id="top">
     <section class="hero wrap">
-      <div class="hero-copy">
-        <div class="eyebrow"><i></i> Официальный сайт проекта</div>
-        <h1>ТВОЯ ИСТОРИЯ<br><span>НАЧИНАЕТСЯ ЗДЕСЬ.</span></h1>
-        <p>Пополняй игровой баланс INFIRE RP быстро и удобно. Никаких сложных пакетов — ты сам выбираешь нужную сумму.</p>
-        <div class="rate"><span>Курс пополнения</span><strong>1 ₽ <em>=</em> 1 ВИРТ</strong></div>
-        <a class="hero-btn" href="#donate">Пополнить баланс <span>→</span></a>
-      </div>
-      <div class="hero-art" aria-hidden="true">
-        <div class="orb"></div>
-        <div class="monogram">I</div>
-        <div class="float-card card-a"><small>INFIRE RP</small><strong>PLAY YOUR STORY</strong></div>
-        <div class="float-card card-b"><span class="live-dot"></span> ONLINE</div>
-      </div>
+      <div class="hero-copy"><div class="eyebrow"><i></i> ОФИЦИАЛЬНЫЙ САЙТ ПРОЕКТА</div><h1>ТВОЯ ИСТОРИЯ<br><span>НАЧИНАЕТСЯ ЗДЕСЬ.</span></h1><p>Пополняй игровой баланс INFIRE RP быстро и удобно. Никаких сложных пакетов — ты сам выбираешь нужную сумму.</p><div class="rate"><span>Курс пополнения</span><strong>1 ₽ <em>=</em> 1 ВИРТ</strong></div><a class="hero-btn" href="#donate">Пополнить баланс <span>→</span></a></div>
+      <div class="hero-art" aria-hidden="true"><div class="orb"></div><div class="monogram">I</div><div class="float-card card-a"><small>INFIRE RP</small><strong>PLAY YOUR STORY</strong></div><div class="float-card card-b"><span class="live-dot"></span> ONLINE</div></div>
     </section>
-
-    <section id="donate" class="donate-section wrap">
-      <div class="section-head"><div><span>ПОПОЛНЕНИЕ</span><h2>Пополнить игровой баланс</h2></div><p>Укажи игровой ник и сумму. Перед оплатой обязательно проверь введённые данные.</p></div>
-      <div class="donate-grid">
-        <form class="donate-card" id="donateForm">
-          <label>Игровой ник<input id="nickname" type="text" maxlength="24" placeholder="Например: Maxim_Silivestru" required></label>
-          <label>Сумма пополнения<div class="money-input"><input id="amount" type="number" min="10" max="1000000" step="1" value="500" required><span>₽</span></div></label>
-          <div class="quick"><button type="button" data-value="100">100 ₽</button><button type="button" data-value="500" class="active">500 ₽</button><button type="button" data-value="1000">1 000 ₽</button><button type="button" data-value="2500">2 500 ₽</button><button type="button" data-value="5000">5 000 ₽</button></div>
-          <div class="receive"><div><span>Ты получишь</span><strong><span id="receive">500</span> вирт</strong></div><div class="rate-mini">1 ₽ = 1 вирт</div></div>
-          <button class="pay" type="submit">Перейти к оплате <span>→</span></button>
-          <div class="safe">🔒 Безопасное соединение · Платёжный модуль подключим далее</div>
-        </form>
-        <aside class="info-card">
-          <span class="info-kicker">INFIRE PAYMENT</span>
-          <h3>Просто.<br>Быстро.<br><b>Без лишнего.</b></h3>
-          <p>Вирты будут начисляться на указанный игровой аккаунт после подтверждения платежа.</p>
-          <div class="steps"><div><b>01</b><span>Введи свой игровой ник</span></div><div><b>02</b><span>Выбери любую сумму</span></div><div><b>03</b><span>Оплати и получи вирты</span></div></div>
-        </aside>
-      </div>
-    </section>
-
+    <section id="donate" class="donate-section wrap"><div class="section-head"><div><span>ПОПОЛНЕНИЕ</span><h2>Пополнить игровой баланс</h2></div><p>Укажи игровой ник и сумму. Перед оплатой обязательно проверь введённые данные.</p></div><div class="donate-grid"><form class="donate-card" id="donateForm"><label>Игровой ник<input id="nickname" type="text" maxlength="24" placeholder="Например: Maxim_Silivestru" required></label><label>Сумма пополнения<div class="money-input"><input id="amount" type="number" min="10" max="1000000" step="1" value="500" required><span>₽</span></div></label><div class="quick"><button type="button" data-value="100">100 ₽</button><button type="button" data-value="500" class="active">500 ₽</button><button type="button" data-value="1000">1 000 ₽</button><button type="button" data-value="2500">2 500 ₽</button><button type="button" data-value="5000">5 000 ₽</button></div><div class="receive"><div><span>Ты получишь</span><strong><span id="receive">500</span> вирт</strong></div><div class="rate-mini">1 ₽ = 1 вирт</div></div><button class="pay" type="submit">Перейти к оплате <span>→</span></button><div class="safe">🔒 Безопасное соединение · Платёжный модуль подключим далее</div></form><aside class="info-card"><span class="info-kicker">INFIRE PAYMENT</span><h3>Просто.<br>Быстро.<br><b>Без лишнего.</b></h3><p>Вирты будут начисляться на указанный игровой аккаунт после подтверждения платежа.</p><div class="steps"><div><b>01</b><span>Введи свой игровой ник</span></div><div><b>02</b><span>Выбери любую сумму</span></div><div><b>03</b><span>Оплати и получи вирты</span></div></div></aside></div></section>
     <section id="faq" class="faq wrap"><div><span>НУЖНА ПОМОЩЬ?</span><h2>Возник вопрос с пополнением?</h2></div><a href="#">Связаться с поддержкой →</a></section>
   </main>
-
-  <footer class="wrap"><a class="brand small" href="#"><span class="brand-mark">I</span><span>INFIRE</span><b>RP</b></a><p>© 2026 INFIRE ROLEPLAY. Все права защищены.</p><div><a href="#">Правила</a><a href="#">Контакты</a></div></footer>
-
-  <div class="modal" id="modal"><div class="modal-box"><button class="close" id="close">×</button><span class="modal-icon">✓</span><h3>Данные проверены</h3><p id="summary"></p><div class="modal-note">Реальная платёжная система пока не подключена. Интерфейс сайта уже готов для интеграции.</div><button class="pay" id="demoPay">Понятно</button></div></div>
-  <script src="script.js"></script>
-</body>
-</html>
+  <footer class="wrap"><a class="brand small" href="#top"><span class="brand-word"><span class="brand-i">I</span>NFIRE</span><b>RP</b></a><p>© 2026 INFIRE ROLEPLAY. Все права защищены.</p><div><a href="#">Правила</a><a href="#">Контакты</a></div></footer>
+  <div class="modal" id="modal"><div class="modal-box"><button class="close" id="close">×</button><span class="modal-icon">✓</span><h3>Данные проверены</h3><p id="summary"></p><div class="modal-note">Реальная платёжная система пока не подключена. Интерфейс сайта уже готов для интеграции.</div><button class="pay" id="demoPay">Понятно</button></div></div><script src="script.js"></script>
+</body></html>
